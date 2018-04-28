@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 3/27/2018, 20:16:45
+      Time of this report: 4/26/2018, 23:05:26
              Machine name: BRIANIAC
                Machine Id: {191C32C6-EAD3-49C4-88BD-8973A4CE1D7D}
          Operating System: Windows 10 Home 64-bit (10.0, Build 16299) (16299.rs3_release.170928-1534)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz (8 CPUs), ~2.5GHz
                    Memory: 24576MB RAM
       Available OS Memory: 24528MB RAM
-                Page File: 38997MB used, 5494MB available
+                Page File: 16972MB used, 25451MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -464,7 +464,7 @@ USB Devices
 | Vendor/Product ID: 0x8086, 0x8C31
 | Matching Device ID: USB\ROOT_HUB30
 | Service: USBHUB3
-| Driver: USBHUB3.SYS, 2/21/2018 18:51:35, 555424 bytes
+| Driver: USBHUB3.SYS, 3/12/2018 23:54:16, 555936 bytes
 | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x279E, 0x024E
@@ -554,7 +554,7 @@ USB Devices
 | | Location: Port_#0003.Hub_#0003
 | | Matching Device ID: USB\USB20_HUB
 | | Service: USBHUB3
-| | Driver: USBHUB3.SYS, 2/21/2018 18:51:35, 555424 bytes
+| | Driver: USBHUB3.SYS, 3/12/2018 23:54:16, 555936 bytes
 | | 
 | +-+ Wacom Tablet
 | | | Vendor/Product ID: 0x056A, 0x00FA
@@ -669,13 +669,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 21.0 GB
+ Free Space: 18.8 GB
 Total Space: 242.3 GB
 File System: NTFS
       Model: Intel Raid 0 Volume
 
       Drive: D:
- Free Space: 26.4 GB
+ Free Space: 25.5 GB
 Total Space: 938.2 GB
 File System: NTFS
       Model: HGST HTS721010A9E630
@@ -687,7 +687,7 @@ File System: NTFS
       Model: TOSHIBA THNSNJ128G8NU
 
       Drive: G:
- Free Space: 79.3 GB
+ Free Space: 50.4 GB
 Total Space: 122.0 GB
 File System: NTFS
       Model: TOSHIBA THNSNJ128G8NU
@@ -928,7 +928,7 @@ BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,10.00.16299.00
 MPEG Video Decoder,0x40000001,1,1,quartz.dll,10.00.16299.0015
 
 WDM Streaming Tee/Splitter Devices:
-Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.16299.0334
 
 Video Compressors:
 WMVideo8 Encoder DMO,0x00600800,1,1,wmvxencd.dll,10.00.16299.0248
@@ -963,15 +963,15 @@ Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,10.00.16299.0015
 
 WDM Streaming Capture Devices:
 ,0x00000000,0,0,,
-Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
-Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
-Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,10.00.16299.0334
+Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,10.00.16299.0334
+Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,10.00.16299.0334
 ,0x00000000,0,0,,
 
 WDM Streaming Rendering Devices:
 ,0x00000000,0,0,,
-Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
-Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+Realtek HDA SPDIF Out,0x00200000,1,1,ksproxy.ax,10.00.16299.0334
+Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,10.00.16299.0334
 ,0x00000000,0,0,,
 
 BDA Network Providers:
@@ -995,7 +995,7 @@ PTFilter,0x00200000,0,0,EncDec.dll,10.00.16299.0192
 XDS Codec,0x00200000,0,0,EncDec.dll,10.00.16299.0192
 
 WDM Streaming Communication Transforms:
-Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.16299.0334
 
 Audio Renderers:
 TSB-TV-C (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
@@ -1107,7 +1107,7 @@ Video Effects:
   Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.16299.0015
   Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.16299.0015
 Video Processor:
-  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.16299.0309
+  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.16299.0334
 Audio Decoders:
   Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.16299.0015
   MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.16299.0015
@@ -1413,18 +1413,18 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 1384256559714429410, type 5
-Event Name: WindowsWcpOtherFailure3
+Fault bucket 2261168696036609946, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.251:1
-P2: wcp\rtllib\win32lib\delta_library.cpp
-P3: Windows::Rtl::DeltaDecompressBuffer
-P4: 287
-P5: c007000d
-P6: 0xe2fc0302
+P1: FSD-Win64-Shipping.exe
+P2: 4.18.1.0
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1432,37 +1432,37 @@ P10:
 
 
 +++ WER1 +++:
-Fault bucket 1384256559714429410, type 5
-Event Name: WindowsWcpOtherFailure3
+Fault bucket 1811004520497654405, type 5
+Event Name: MoAppCrash
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.251:1
-P2: wcp\rtllib\win32lib\delta_library.cpp
-P3: Windows::Rtl::DeltaDecompressBuffer
-P4: 287
-P5: c007000d
-P6: 0xe2fc0302
-P7: 
-P8: 
-P9: 
+P1: Microsoft.Windows.Cortana_1.9.6.16299_neutral_neutral_cw5n1h2txyewy
+P2: praid:CortanaUI
+P3: 10.0.16299.251
+P4: c7ebbf26
+P5: ntdll.dll
+P6: 10.0.16299.334
+P7: e508fc03
+P8: c0000005
+P9: 000000000004bf1b
 P10: 
 
 
 +++ WER2 +++:
-Fault bucket , type 0
-Event Name: WindowsWcpOtherFailure3
+Fault bucket 1436446535353793623, type 5
+Event Name: FaultTolerantHeap
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.251:1
-P2: wcp\rtllib\win32lib\delta_library.cpp
-P3: Windows::Rtl::DeltaDecompressBuffer
-P4: 287
-P5: c007000d
-P6: 0xe2fc0302
+P1: PlacesServer.exe
+P2: 10.0.16299.251
+P3: C7EBBF26
+P4: ffffbaad
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1470,18 +1470,18 @@ P10:
 
 
 +++ WER3 +++:
-Fault bucket , type 0
-Event Name: WindowsWcpOtherFailure3
+Fault bucket 1557998720400841229, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.251:1
-P2: wcp\rtllib\win32lib\delta_library.cpp
-P3: Windows::Rtl::DeltaDecompressBuffer
-P4: 287
-P5: c007000d
-P6: 0xe2fc0302
+P1: firefox.exe
+P2: 59.0.2.6656
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1489,18 +1489,18 @@ P10:
 
 
 +++ WER4 +++:
-Fault bucket , type 0
-Event Name: WindowsWcpOtherFailure3
+Fault bucket 2251469911065012407, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.251:1
-P2: wcp\rtllib\win32lib\delta_library.cpp
-P3: Windows::Rtl::DeltaDecompressBuffer
-P4: 287
-P5: c007000d
-P6: 0xe2fc0302
+P1: Overwatch.exe
+P2: 1.22.0.45544
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1508,32 +1508,13 @@ P10:
 
 
 +++ WER5 +++:
-Fault bucket , type 0
-Event Name: WindowsWcpOtherFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 10.0.16299.251:1
-P2: wcp\rtllib\win32lib\delta_library.cpp
-P3: Windows::Rtl::DeltaDecompressBuffer
-P4: 287
-P5: c007000d
-P6: 0xe2fc0302
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER6 +++:
-Fault bucket 129590012972, type 5
+Fault bucket 129596128754, type 5
 Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4Editor-Cmd.exe
+P1: UnrealCEFSubProcess.exe
 P2: 4.18.0.0
 P3: 10.0.16299.2.0.0
 P4: 
@@ -1545,59 +1526,78 @@ P9:
 P10: 
 
 
-+++ WER7 +++:
-Fault bucket 1327006685366974631, type 5
-Event Name: BEX64
++++ WER6 +++:
+Fault bucket 1892619072675622723, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: AUDIODG.EXE
-P2: 10.0.16299.248
-P3: 7a3355c2
-P4: RenderAPO.dll
-P5: 8.83.51.0
-P6: 570d91c3
-P7: 00000000000c0ae3
-P8: c0000409
-P9: 0000000000000005
+P1: WSCommCntr4.exe
+P2: 4.0.3.0
+P3: 52e23951
+P4: ntdll.dll
+P5: 10.0.16299.334
+P6: e508fc03
+P7: c0000005
+P8: 000000000004bf1b
+P9: 
+P10: 
+
+
++++ WER7 +++:
+Fault bucket 94494161585, type 5
+Event Name: FaultTolerantHeap
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: WSCommCntr4.exe
+P2: 4.0.3.0
+P3: 52E23951
+P4: ffffbaad
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
 P10: 
 
 
 +++ WER8 +++:
 Fault bucket , type 0
-Event Name: BEX64
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: AUDIODG.EXE
-P2: 10.0.16299.248
-P3: 7a3355c2
-P4: RenderAPO.dll
-P5: 8.83.51.0
-P6: 570d91c3
-P7: 00000000000c0ae3
-P8: c0000409
-P9: 0000000000000005
+P1: WSCommCntr4.exe
+P2: 4.0.3.0
+P3: 52e23951
+P4: ntdll.dll
+P5: 10.0.16299.334
+P6: e508fc03
+P7: c0000005
+P8: 000000000004bf1b
+P9: 
 P10: 
 
 
 +++ WER9 +++:
-Fault bucket 129575294921, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 1892619072675622723, type 4
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: LCore.exe
-P2: 8.83.85.0
-P3: 10.0.16299.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: WSCommCntr4.exe
+P2: 4.0.3.0
+P3: 52e23951
+P4: ntdll.dll
+P5: 10.0.16299.334
+P6: e508fc03
+P7: c0000005
+P8: 000000000004bf1b
 P9: 
 P10: 
 
