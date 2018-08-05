@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 7/1/2018, 18:23:20
+      Time of this report: 8/3/2018, 23:06:13
              Machine name: BRIANIAC
                Machine Id: {191C32C6-EAD3-49C4-88BD-8973A4CE1D7D}
          Operating System: Windows 10 Home 64-bit (10.0, Build 17134) (17134.rs4_release.180410-1804)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz (8 CPUs), ~2.5GHz
                    Memory: 24576MB RAM
       Available OS Memory: 24528MB RAM
-                Page File: 8671MB used, 19440MB available
+                Page File: 14390MB used, 16794MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -475,45 +475,6 @@ USB Devices
 | Driver: USBHUB3.SYS, 6/8/2018 02:30:50, 565152 bytes
 | 
 +-+ USB Composite Device
-| | Vendor/Product ID: 0x279E, 0x024E
-| | Location: Port_#0001.Hub_#0003
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 4/11/2018 16:33:52, 168864 bytes
-| | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x279E, 0x024E
-| | | Location: 0000.0014.0000.001.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 4/11/2018 16:33:52, 42496 bytes
-| | | Driver: hidclass.sys, 4/11/2018 16:33:52, 173568 bytes
-| | | Driver: hidparse.sys, 6/8/2018 02:01:36, 46080 bytes
-| | | 
-| | +-+ HID-compliant mouse
-| | | | Vendor/Product ID: 0x279E, 0x024E
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | | Service: mouhid
-| | | | Driver: mouhid.sys, 4/11/2018 16:33:52, 33280 bytes
-| | | | Driver: mouclass.sys, 4/11/2018 16:33:52, 56728 bytes
-| | | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x279E, 0x024E
-| | | Location: 0000.0014.0000.001.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 4/11/2018 16:33:52, 42496 bytes
-| | | Driver: hidclass.sys, 4/11/2018 16:33:52, 173568 bytes
-| | | Driver: hidparse.sys, 6/8/2018 02:01:36, 46080 bytes
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x279E, 0x024E
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 4/11/2018 16:33:52, 40448 bytes
-| | | | Driver: kbdclass.sys, 4/11/2018 16:33:52, 63904 bytes
-| | 
-+-+ USB Composite Device
 | | Vendor/Product ID: 0x046D, 0xC52B
 | | Location: Port_#0002.Hub_#0003
 | | Matching Device ID: USB\COMPOSITE
@@ -557,6 +518,45 @@ USB Devices
 | | | | Driver: mouhid.sys, 4/11/2018 16:33:52, 33280 bytes
 | | | | Driver: mouclass.sys, 4/11/2018 16:33:52, 56728 bytes
 | | 
++-+ USB Composite Device
+| | Vendor/Product ID: 0x279E, 0x024E
+| | Location: Port_#0001.Hub_#0003
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 4/11/2018 16:33:52, 168864 bytes
+| | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x279E, 0x024E
+| | | Location: 0000.0014.0000.001.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 4/11/2018 16:33:52, 42496 bytes
+| | | Driver: hidclass.sys, 4/11/2018 16:33:52, 173568 bytes
+| | | Driver: hidparse.sys, 6/8/2018 02:01:36, 46080 bytes
+| | | 
+| | +-+ HID-compliant mouse
+| | | | Vendor/Product ID: 0x279E, 0x024E
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
+| | | | Service: mouhid
+| | | | Driver: mouhid.sys, 4/11/2018 16:33:52, 33280 bytes
+| | | | Driver: mouclass.sys, 4/11/2018 16:33:52, 56728 bytes
+| | | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x279E, 0x024E
+| | | Location: 0000.0014.0000.001.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 4/11/2018 16:33:52, 42496 bytes
+| | | Driver: hidclass.sys, 4/11/2018 16:33:52, 173568 bytes
+| | | Driver: hidparse.sys, 6/8/2018 02:01:36, 46080 bytes
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x279E, 0x024E
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 4/11/2018 16:33:52, 40448 bytes
+| | | | Driver: kbdclass.sys, 4/11/2018 16:33:52, 63904 bytes
+| | 
 +-+ Generic USB Hub
 | | Vendor/Product ID: 0x056A, 0x00F9
 | | Location: Port_#0003.Hub_#0003
@@ -566,7 +566,7 @@ USB Devices
 | | 
 | +-+ Wacom Tablet
 | | | Vendor/Product ID: 0x056A, 0x00FA
-| | | Location: Port_#0001.Hub_#0005
+| | | Location: Port_#0001.Hub_#0008
 | | | Matching Device ID: USB\VID_056A&PID_00FA
 | | | Upper Filters: hidkmdf
 | | | Service: WacHidRouter
@@ -677,13 +677,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 38.7 GB
+ Free Space: 26.0 GB
 Total Space: 242.3 GB
 File System: NTFS
       Model: Intel Raid 0 Volume
 
       Drive: D:
- Free Space: 81.5 GB
+ Free Space: 51.0 GB
 Total Space: 938.2 GB
 File System: NTFS
       Model: HGST HTS721010A9E630
@@ -695,14 +695,14 @@ File System: NTFS
       Model: TOSHIBA THNSNJ128G8NU
 
       Drive: G:
- Free Space: 42.4 GB
+ Free Space: 41.3 GB
 Total Space: 122.0 GB
 File System: NTFS
       Model: TOSHIBA THNSNJ128G8NU
 
       Drive: F:
       Model: MATSHITA BD-CMB UJ162
-     Driver: c:\windows\system32\drivers\cdrom.sys, 10.00.17134.0001 (English), 4/11/2018 16:33:48, 159744 bytes
+     Driver: c:\windows\system32\drivers\cdrom.sys, 10.00.17134.0137 (English), 6/14/2018 21:36:47, 159744 bytes
 
 --------------
 System Devices
@@ -879,7 +879,7 @@ WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.17134.0001
 AVI Splitter,0x00600000,1,1,quartz.dll,10.00.17134.0001
 VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,10.00.17134.0001
 SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,10.00.17134.0001
-Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,10.00.17134.0112
+Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,10.00.17134.0137
 AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,10.00.17134.0001
 StreamBufferSink,0x00200000,0,0,sbe.dll,10.00.17134.0001
 MJPEG Decompressor,0x00600000,1,1,quartz.dll,10.00.17134.0001
@@ -932,7 +932,7 @@ Line 21 Decoder 2,0x00600002,1,1,quartz.dll,10.00.17134.0001
 File Source (Async.),0x00400000,0,1,quartz.dll,10.00.17134.0001
 File Source (URL),0x00400000,0,1,quartz.dll,10.00.17134.0001
 Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,10.00.17134.0001
-Enhanced Video Renderer,0x00200000,1,0,evr.dll,10.00.17134.0001
+Enhanced Video Renderer,0x00200000,1,0,evr.dll,10.00.17134.0137
 BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,10.00.17134.0001
 MPEG Video Decoder,0x40000001,1,1,quartz.dll,10.00.17134.0001
 
@@ -962,9 +962,9 @@ Microphone (Logitech G930 Gaming Headset),0x00200000,0,0,qcap.dll,10.00.17134.00
 Microphone (Realtek High Definition Audio),0x00200000,0,0,qcap.dll,10.00.17134.0001
 
 PBDA CP Filters:
-PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.17134.0112
-PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.17134.0112
-PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.17134.0112
+PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.17134.0137
+PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.17134.0137
+PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.17134.0137
 
 Midi Renderers:
 Default MidiOut Device,0x00800000,1,0,quartz.dll,10.00.17134.0001
@@ -1088,15 +1088,15 @@ Media Foundation Transforms
 
 Video Decoders:
   NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 22.21.0013.8205
-  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.17134.0112
+  Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.17134.0137
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.17134.0001
   Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.17134.0001
-  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.17134.0112
+  Microsoft H264 Video Decoder MFT, CLSID_CMSH264DecoderMFT, 0x1, msmpeg2vdec.dll, 10.00.17134.0137
   WMV Screen decoder MFT, CLSID_CMSSCDecMediaObject, 0x1, wmvsdecd.dll, 10.00.17134.0001
   WMVideo Decoder MFT, CLSID_CWMVDecMediaObject, 0x1, wmvdecod.dll, 10.00.17134.0112
   MJPEG Decoder MFT, {CB17E772-E1CC-4633-8450-5617AF577905}, 0x1, mfmjpegdec.dll, 10.00.17134.0001
   Mpeg43 Decoder MFT, CLSID_CMpeg43DecMediaObject, 0x1, mp43decd.dll, 10.00.17134.0001
-  Microsoft WebM MF VP8 Decoder Transform, {E3AAF548-C9A4-4C6E-234D-5ADA374B0000}, 0x1, MSVP9DEC.dll, 10.00.17134.0112
+  Microsoft WebM MF VP8 Decoder Transform, {E3AAF548-C9A4-4C6E-234D-5ADA374B0000}, 0x1, MSVP9DEC.dll, 10.00.17134.0137
   Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.17134.0001
   HEVCVideoExtension
 Video Encoders:
@@ -1104,7 +1104,7 @@ Video Encoders:
   NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 22.21.0013.8205
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.17134.0001
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.17134.0001
-  Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.17134.0081
+  Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.17134.0165
   H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.17134.0001
   WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 10.00.17134.0001
   Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 10.00.17134.0112
@@ -1116,29 +1116,29 @@ Video Effects:
   Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.17134.0001
   Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.17134.0001
 Video Processor:
-  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.17134.0112
+  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.17134.0137
 Audio Decoders:
   Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.17134.0081
   MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.17134.0001
   WMAudio Decoder MFT, CLSID_CWMADecMediaObject, 0x1, WMADMOD.DLL, 10.00.17134.0001
   Microsoft AAC Audio Decoder MFT, CLSID_CMSAACDecMFT, 0x1, MSAudDecMFT.dll, 10.00.17134.0112
-  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.17134.0112
-  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.17134.0112
+  A-law Wrapper MFT, {36CB6E0C-78C1-42B2-9943-846262F31786}, 0x1, mfcore.dll, 10.00.17134.0137
+  GSM ACM Wrapper MFT, {4A76B469-7B66-4DD4-BA2D-DDF244C766DC}, 0x1, mfcore.dll, 10.00.17134.0137
   WMAPro over S/PDIF MFT, CLSID_CWMAudioSpdTxDMO, 0x1, WMADMOD.DLL, 10.00.17134.0001
   Microsoft Opus Audio Decoder MFT, {63E17C10-2D43-4C42-8FE3-8D8B63E46A6A}, 0x1, MSOpusDecoder.dll, 10.00.17134.0001
   Microsoft FLAC Audio Decoder MFT, {6B0B3E6B-A2C5-4514-8055-AFE8A95242D9}, 0x1, MSFlacDecoder.dll, 10.00.17134.0001
   Microsoft MPEG Audio Decoder MFT, {70707B39-B2CA-4015-ABEA-F8447D22D88B}, 0x1, MSAudDecMFT.dll, 10.00.17134.0112
   WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject, 0x1, WMSPDMOD.DLL, 10.00.17134.0001
-  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.17134.0112
-  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.17134.0112
+  G711 Wrapper MFT, {92B66080-5E2D-449E-90C4-C41F268E5514}, 0x1, mfcore.dll, 10.00.17134.0137
+  IMA ADPCM ACM Wrapper MFT, {A16E1BFF-A80D-48AD-AECD-A35C005685FE}, 0x1, mfcore.dll, 10.00.17134.0137
   MP3 Decoder MFT, CLSID_CMP3DecMediaObject, 0x1, mp3dmod.dll, 10.00.17134.0001
   Microsoft ALAC Audio Decoder MFT, {C0CD7D12-31FC-4BBC-B363-7322EE3E1879}, 0x1, MSAlacDecoder.dll, 10.00.17134.0001
-  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.17134.0112
+  ADPCM ACM Wrapper MFT, {CA34FE0A-5722-43AD-AF23-05F7650257DD}, 0x1, mfcore.dll, 10.00.17134.0137
   Dolby TrueHD IEC-61937 converter MFT, {CF5EEEDF-0E92-4B3B-A161-BD0FFE545E4B}, 0x1, mfaudiocnv.dll, 10.00.17134.0001
   DTS IEC-61937 converter MFT, {D035E24C-C877-42D7-A795-2A8A339B472F}, 0x1, mfaudiocnv.dll, 10.00.17134.0001
 Audio Encoders:
   LPCM DVD-Audio MFT, {068A8476-9229-4CC0-9D49-2FC699DCD30A}, 0x1, mfaudiocnv.dll, 10.00.17134.0001
-  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.17134.0112
+  MP3 Encoder ACM Wrapper MFT, {11103421-354C-4CCA-A7A3-1AFF9A5B6701}, 0x1, mfcore.dll, 10.00.17134.0137
   Microsoft FLAC Audio Encoder MFT, {128509E9-C44E-45DC-95E9-C255B8F466A6}, 0x1, MSFlacEncoder.dll, 10.00.17134.0001
   WM Speech Encoder DMO, CLSID_CWMSPEncMediaObject2, 0x1, WMSPDMOE.DLL, 10.00.17134.0001
   MS AMRNB Encoder MFT, {2FAE8AFE-04A3-423A-A814-85DB454712B0}, 0x1, MSAMRNBEncoder.dll, 10.00.17134.0001
@@ -1149,11 +1149,11 @@ Audio Encoders:
   Microsoft Dolby Digital Encoder MFT, {AC3315C9-F481-45D7-826C-0B406C1F64B8}, 0x1, msac3enc.dll, 10.00.17134.0001
 Audio Effects:
   AEC, CLSID_CWMAudioAEC, 0x1, mfwmaaec.dll, 10.00.17134.0001
-  Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 10.00.17134.0001
+  Resampler MFT, CLSID_CResamplerMediaObject, 0x1, resampledmo.dll, 10.00.17134.0137
 Multiplexers:
-  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.17134.0112
+  Microsoft MPEG2 Multiplexer MFT, {AB300F71-01AB-46D2-AB6C-64906CB03258}, 0x2, mfmpeg2srcsnk.dll, 10.00.17134.0137
 Others:
-  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.17134.0112
+  Microsoft H264 Video Remux (MPEG2TSToMP4) MFT, {05A47EBB-8BF0-4CBF-AD2F-3B71D75866F5}, 0x1, msmpeg2vdec.dll, 10.00.17134.0137
 
 
 --------------------------------------------
@@ -1422,44 +1422,120 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 1560512926115491706, type 4
-Event Name: APPCRASH
+Fault bucket 1637134052816363994, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: WSCommCntr4.exe
-P2: 4.0.3.0
-P3: 52e23951
-P4: ntdll.dll
-P5: 10.0.17134.112
-P6: 6529f37c
-P7: c0000005
-P8: 000000000001d979
+P1: TslGame.exe
+P2: 4.4.5.0
+P3: 10.0.17134.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER1 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
+Fault bucket 1636915255946640675, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: WSCommCntr4.exe
-P2: 4.0.3.0
-P3: 52e23951
-P4: ntdll.dll
-P5: 10.0.17134.112
-P6: 6529f37c
-P7: c0000005
-P8: 000000000001d979
+P1: EpicGamesLauncher.exe
+P2: 7.14.2.0
+P3: 10.0.17134.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER2 +++:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 144
+P2: 3003
+P3: ffffcb8b9aa4c6c8
+P4: 40010000
+P5: 0
+P6: 10_0_17134
+P7: 0_0
+P8: 768_1
+P9: 
+P10: 
+
+
++++ WER3 +++:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 144
+P2: 3003
+P3: ffffcb8b9aa4c6c8
+P4: 40010000
+P5: 0
+P6: 10_0_17134
+P7: 0_0
+P8: 768_1
+P9: 
+P10: 
+
+
++++ WER4 +++:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: ab
+P2: 1
+P3: 20
+P4: 0
+P5: 1
+P6: 10_0_17134
+P7: 0_0
+P8: 768_1
+P9: 
+P10: 
+
+
++++ WER5 +++:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: ab
+P2: 1
+P3: 20
+P4: 0
+P5: 1
+P6: 10_0_17134
+P7: 0_0
+P8: 768_1
+P9: 
+P10: 
+
+
++++ WER6 +++:
 Fault bucket 1579566494183205413, type 5
 Event Name: MoAppCrash
 Response: Not available
@@ -1478,129 +1554,53 @@ P9: 0000000000010de0
 P10: 
 
 
-+++ WER3 +++:
-Fault bucket 2075275796874442975, type 5
-Event Name: RADAR_PRE_LEAK_64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: Overwatch.exe
-P2: 1.25.0.47946
-P3: 10.0.17134.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER4 +++:
-Fault bucket , type 0
-Event Name: LiveKernelEvent
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 141
-P2: ffffd2898a23a4a0
-P3: fffff8060a8ff44c
-P4: 0
-P5: 0
-P6: 10_0_17134
-P7: 0_0
-P8: 768_1
-P9: 
-P10: 
-
-
-+++ WER5 +++:
-Fault bucket , type 0
-Event Name: LiveKernelEvent
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 141
-P2: ffffd2898a23a4a0
-P3: fffff8060a8ff44c
-P4: 0
-P5: 0
-P6: 10_0_17134
-P7: 0_0
-P8: 768_1
-P9: 
-P10: 
-
-
-+++ WER6 +++:
-Fault bucket 1259510763920639091, type 5
-Event Name: AppHangB1
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: firefox.exe
-P2: 61.0.0.6746
-P3: 5b2bb2a9
-P4: b4a0
-P5: 67247104
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
 +++ WER7 +++:
 Fault bucket , type 0
-Event Name: AppHangB1
+Event Name: BlueScreen
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: firefox.exe
-P2: 61.0.0.6746
-P3: 5b2bb2a9
-P4: b4a0
-P5: 67247104
-P6: 
-P7: 
-P8: 
+P1: d1
+P2: 28
+P3: 2
+P4: 0
+P5: fffff801824e3624
+P6: 10_0_17134
+P7: 0_0
+P8: 768_1
 P9: 
 P10: 
 
 
 +++ WER8 +++:
-Fault bucket 1275672187472344009, type 5
-Event Name: BEX64
+Fault bucket , type 0
+Event Name: BlueScreen
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: bad_module_info
-P2: 0.0.0.0
-P3: 00000000
-P4: unknown
-P5: 0.0.0.0
-P6: 00000000
-P7: 000002b68d689d45
-P8: c0000005
-P9: 0000000000000008
+P1: d1
+P2: 28
+P3: 2
+P4: 0
+P5: fffff801824e3624
+P6: 10_0_17134
+P7: 0_0
+P8: 768_1
+P9: 
 P10: 
 
 
 +++ WER9 +++:
-Fault bucket 1544985996781622863, type 5
+Fault bucket 1298020971406793079, type 5
 Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4Editor.exe
-P2: 4.19.2.0
+P1: firefox.exe
+P2: 61.0.1.6759
 P3: 10.0.17134.2.0.0
 P4: 
 P5: 
